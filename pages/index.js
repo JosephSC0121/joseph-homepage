@@ -13,7 +13,8 @@ import {
 } from '@chakra-ui/react'
 import {
   IoLogoGoogle,
-  IoLogoWhatsapp,} from 'react-icons/io5'
+  IoLogoWhatsapp,
+} from 'react-icons/io5'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -27,7 +28,7 @@ const Page = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h3" variant="section-title">
-            <br/>
+              <br />
               <Icon as={ChevronRightIcon} boxSize={6} mr={2} />
               Joseph Silva
               <Divider my={6} />
@@ -77,31 +78,31 @@ const Page = () => {
                 colorScheme="gray"
                 variant="outline"
               >
-                Mi Portafolio 
+                Mi Portafolio
               </Button>
             </NextLink>
           </Box>
         </Section>
         <Section delay={0.3}>
-  <Heading as="h3" variant="section-title">
-    <Icon as={ChevronRightIcon} boxSize={6} mr={2} />
-    Contáctame
-    <Divider my={6} />
-    <List display="flex">
-          <ListItem>
-            <Link href="https://wa.me/+573235026722" target="_blank">
-              <Button
-                colorScheme="gray"
-                variant="ghost"
-                size="md"
-                leftIcon={<IoLogoWhatsapp />}
-              >
-                +57 323 5026 722
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-         
+          <Heading as="h3" variant="section-title">
+            <Icon as={ChevronRightIcon} boxSize={6} mr={2} />
+            Contáctame
+            <Divider my={6} />
+          </Heading>
+          <List spacing={4} textAlign="center">
+            <ListItem>
+              <Link href="https://wa.me/+573235026722" target="_blank">
+                <Button
+                  colorScheme="gray"
+                  variant="ghost"
+                  size="md"
+                  leftIcon={<IoLogoWhatsapp />}
+                >
+                  +57 323 5026 722
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
               <Button
                 colorScheme="gray"
                 variant="ghost"
@@ -110,11 +111,9 @@ const Page = () => {
               >
                 josephsilva0121@gmail.com
               </Button>
-
-          </ListItem>
-    </List>
-  </Heading>
-</Section>
+            </ListItem>
+          </List>
+        </Section>
       </Container>
     </Layout>
   )
