@@ -1,0 +1,34 @@
+{
+  "name": "joseph-homepage",
+  "version": "1.0.0",
+  "description": "Joseph website",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev -H 0.0.0.0",
+    "prettier": "prettier -write .",
+     "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Joseph Silva",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.12.17",
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-particles-js": "^3.6.0",
+    "three": "^0.154.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-next": "^13.4.7",
+    "prettier": "^2.8.8"
+  },
+  "main": "next.config.js"
+}
