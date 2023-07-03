@@ -6,7 +6,7 @@
     "build": "next build",
     "dev": "next dev -H 0.0.0.0",
     "prettier": "prettier -write .",
-     "start": "next start",
+    "start": "next start",
     "lint": "next lint"
   },
   "keywords": [],
@@ -22,7 +22,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "react-particles-js": "^3.6.0",
     "three": "^0.154.0"
   },
   "devDependencies": {
