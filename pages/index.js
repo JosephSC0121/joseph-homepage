@@ -89,7 +89,7 @@ const Page = () => {
             Contáctame
             <Divider my={6} />
           </Heading>
-          <List spacing={4} textAlign="center">
+          <List spacing={4} textAlign="left">
             <ListItem>
               <Link href="https://wa.me/+573235026722" target="_blank">
                 <Button
