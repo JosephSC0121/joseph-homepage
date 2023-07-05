@@ -13,11 +13,11 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Calculate Area">
+  <Layout title="Conway's Game of Life">
     <Container>
       <br/>
       <Title>
-      Conways Game of Life <Badge>2023</Badge>
+      Conway's Game of Life <Badge>2023</Badge>
       </Title>
       <P>
       El Juego de la Vida es un juego de simulación matemático creado por el matemático británico John Conway en 1970. Aunque se llama juego, en realidad no tiene jugadores ni se basa en la estrategia o la competencia. En cambio, es un juego de cero jugadores que se desarrolla en un tablero bidimensional compuesto por celdas que pueden estar vivas o muertas.

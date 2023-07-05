@@ -12,7 +12,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Calculate Area">
+  <Layout title="CRUD">
     <Container>
       <br/>
       <Title>
